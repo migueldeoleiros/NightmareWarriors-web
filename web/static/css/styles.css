@@ -1,0 +1,13 @@
+/* Add some basic styling for the header bar */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Add some padding and center the content */
+.content {
+    padding: 2rem;
+    text-align: center;
+}
