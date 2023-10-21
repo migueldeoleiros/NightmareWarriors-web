@@ -16,12 +16,17 @@ header {
     top: 0;
     z-index: 1000; 
     display: flex;
-    justify-items: flex-between;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .header-right {
-    margin-left: 60%;
+    display: flex;
+    justify-content: flex-between;
+    flex-wrap: nowrap;
 }
+
 button {
     font-family: 'Pixelify Sans', sans-serif;
     margin: 5px;
@@ -40,8 +45,6 @@ button {
 .content {
     color: #fff;
     margin-top: 100px;
-    margin-left: 20%;
-    margin-right: 20%;
     padding: 2rem;
     padding-left: 5rem;
     padding-right: 5rem;
