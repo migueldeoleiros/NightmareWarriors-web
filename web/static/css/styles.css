@@ -34,13 +34,27 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
+
 /* Add some padding and center the content */
 .content {
     color: #fff;
-    background-color: #090a11;
-    margin-top: 80px;
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 2rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     text-align: center;
+}
+/* Add some padding and center the content */
+.text {
+    color: #fff;
+    background-color: #090a11;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+    border-radius: 10px;
 }
