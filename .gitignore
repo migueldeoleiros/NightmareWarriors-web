@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and logs
+*.log
+*.sqlite3
+
+# Environment variables
+.env
+
+# Static files (usually collected by Django's collectstatic)
+/static/
+
+# Media files (usually user-uploaded content)
+/media/
+
+# Database configuration
+/db.sqlite3
+
+# Development and production environment files
+*.config
+*.ini
+
+# Temporary files
+*.swp
+
+# Virtual environment
+venv/
+.Python
+pyvenv.cfg
+.python-version
+
+# IDE settings
+.idea/
+
+# vscode settings
+.vscode/
+
+# Translation files
+*.mo
+
+# Windows
+Thumbs.db
