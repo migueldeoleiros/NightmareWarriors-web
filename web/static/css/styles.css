@@ -48,6 +48,7 @@ button {
 }
 /* Add some padding and center the content */
 .text {
+    font-family: 'Pixelify Sans', sans-serif;
     color: #fff;
     background-color: #090a11;
     margin-left: 20%;
