@@ -1,13 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* Add some basic styling for the header bar */
 header {
-    background-color: #333;
+    text-align: left;
+    background-color: #242532;
     color: #fff;
+    position: fixed;
     padding: 1rem;
-    text-align: center;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
 }
 
 /* Add some padding and center the content */
 .content {
+    margin-top: 80px;
     padding: 2rem;
     text-align: center;
 }
