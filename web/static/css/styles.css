@@ -7,16 +7,35 @@ body {
 header {
     text-align: left;
     background-color: #242532;
-    color: #fff;
+    color: white;
     position: fixed;
     padding: 1rem;
     width: 100%;
     top: 0;
     z-index: 1000; 
+    display: flex;
+    justify-items: flex-between;
+}
+
+.header-right {
+    margin-left: 60%;
+}
+
+button {
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #404159;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 /* Add some padding and center the content */
 .content {
+    background-color: #090a11;
+    color: #fff;
     margin-top: 80px;
     padding: 2rem;
     text-align: center;
