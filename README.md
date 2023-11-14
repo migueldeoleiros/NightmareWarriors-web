@@ -6,3 +6,5 @@
 > ADD CONTENT TO CSS BOXES
 
 > SERVE CONTENT WITH DJANGO
+
+This is done now :fire:
